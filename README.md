@@ -3,7 +3,7 @@
 ## Criando uma API REST Simples com .NET Core
 
 - _Para praticar e fixar os conceitos de como criar uma API REST a partir de um projeto pronto!_
-- _Nessa fiz um passo a passo de como fazer nessa live_
+- _Nesse projeto fiz um passo a passo!_
 - _Aberto a sugestões para melhorar o conceito!_
 
 ### Adicionando Projeto DIO.Series.Console
@@ -40,6 +40,22 @@ botão da direita em DIO.Series -> Propriedades -> Aplicativo -> Tipo de Saída 
 
 * Em solução DIO.Series -> botão da direita -> adicionar -> novo Projeto -> escolher `API Web do ASP.NET Core` ->
 em `Nome do Projeto` colocar DIO.Series.Web -> próximo -> manter o mesmo `.NET Core 3.1` -> Criar
+* Após criado definir como `Projeto de Inicialização` -> 
+clicar em `IIS Express` para visualizar o `Serviço` e a `Rota`-> exemplo: `https://localhost:44385/weatherforecast`
+
+## Criando um Model
+
+* Botão da direita em DIO.Series.Web -> adicionar `Novo Item` -> Nomear como `SerieModel.cs` -> Adicionar
+* Após criado adicionar `Referência de Projeto` -> em `SerieModel.cs` criar os `Atributos de Model`.
+
+## Criando a Controller
+
+* Na Solução DIO.Series.Web clicar com botão da direita em Controller -> 
+Adicionar -> `Controller` -> `Controller MVC - Vazio`
+
+## Inserindo Métodos CRUD
+
+* 
 
 
 
